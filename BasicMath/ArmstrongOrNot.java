@@ -12,7 +12,7 @@ int digits = String.valueOf(n).length();
 if(sum==temp){
                System.out.println("Armstrong");
 }else{
-               System.out.println("not Armstrong");
+               System.out.println("Not Armstrong");
 
 }
 }  
