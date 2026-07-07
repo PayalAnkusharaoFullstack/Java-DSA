@@ -10,9 +10,9 @@ int digits = String.valueOf(n).length();
         n=n/10;
     }
 if(sum==temp){
-               System.out.println("armstrong");
+               System.out.println("Armstrong");
 }else{
-               System.out.println("not armstrong");
+               System.out.println("not Armstrong");
 
 }
 }  
