@@ -1,15 +1,15 @@
 public class OneToN{
-static void print(int i,int n) {
+static void print(int i) {
   
-    if(i>n){
+    if(i>5){
         return;
     }
          System.out.println(i);
-    print(i+1, n);
+    print(i+1);
  
 }
 public static void main(String[] args) {
-   print(1,5); 
+   print(1); 
 }
 
 }
