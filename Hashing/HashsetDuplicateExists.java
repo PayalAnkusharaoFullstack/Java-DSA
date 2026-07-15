@@ -3,7 +3,7 @@ import java.util.*;
 public class HashsetDuplicateExists {
  public static void main(String[] args) {
     
-int arr[] = {1, 2, 3, 4, 5,5};
+int arr[] = {3,1, 2, 3, 4, 5,5};
 
 HashSet<Integer> set=new HashSet<>();
 

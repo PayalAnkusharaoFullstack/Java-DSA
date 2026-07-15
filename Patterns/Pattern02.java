@@ -7,8 +7,7 @@ public class Pattern02 {
             }
             System.out.println();
         }
-
-
+        
 
 
     } 

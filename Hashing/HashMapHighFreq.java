@@ -1,0 +1,30 @@
+import java.util.HashMap;
+
+public class HashMapHighFreq {
+        public static void main(String[] args) {
+
+        int arr[] = {5, 4,4, 55, 56, 5, 23};
+
+        HashMap<Integer, Integer> mymap = new HashMap<>();
+
+        for (int num : arr) {
+
+            if (mymap.containsKey(num)) {
+                mymap.put(num, mymap.get(num) + 1);
+            } else {
+                mymap.put(num, 1);
+            }
+        }
+
+        int max=0;
+        int ans=-1;
+
+for(int key:mymap.keySet()){
+if(mymap.get(key)>max){
+    max=mymap.get(key);
+    ans=key;
+}
+}    
+        System.out.println(ans+"->"+max);
+    }
+}
