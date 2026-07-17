@@ -44,8 +44,14 @@ if(i<min){
    
 System.out.println(min);
 
+System.out.println(cars.get(3));
 
+System.out.println(cars.indexOf(40));
 
+if(cars.contains(90)){
+    System.out.println("yes");
+
+}
 
     }
 
