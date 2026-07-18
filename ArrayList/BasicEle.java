@@ -16,42 +16,45 @@ cars.add(65);
 
 System.out.println(cars);
 
-Collections.sort(cars);
+// Collections.sort(cars);
+// System.out.println(cars);
+
+Collections.reverse(cars);
 System.out.println(cars);
 
-System.out.println(cars.size());
+// System.out.println(cars.size());
 
-for(Integer i:cars){
-    sum=sum+i;
-}
-    System.out.println(sum);
+// for(Integer i:cars){
+//     sum=sum+i;
+// }
+//     System.out.println(sum);
 
 
-for(Integer i:cars){
-if(i>max){
-    max=i;
-}
-}
+// for(Integer i:cars){
+// if(i>max){
+//     max=i;
+// }
+// }
    
-System.out.println(max);
+// System.out.println(max);
 
 
-for(Integer i:cars){
-if(i<min){
-    min=i;
-}
-}
+// for(Integer i:cars){
+// if(i<min){
+//     min=i;
+// }
+// }
    
-System.out.println(min);
+// System.out.println(min);
 
-System.out.println(cars.get(3));
+// System.out.println(cars.get(3));
 
-System.out.println(cars.indexOf(40));
+// System.out.println(cars.indexOf(40));
 
-if(cars.contains(90)){
-    System.out.println("yes");
+// if(cars.contains(90)){
+//     System.out.println("yes");
 
-}
+// }
 
     }
 
