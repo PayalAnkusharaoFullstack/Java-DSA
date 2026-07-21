@@ -6,7 +6,7 @@ class animal {
 
 class mamal extends animal {
     void walk() {
-        System.out.println("Walking");
+        System.out.println("Walkingg");
 
     }
 }
