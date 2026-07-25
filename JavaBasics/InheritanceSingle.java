@@ -5,7 +5,7 @@ System.out.println("eating");
 }
 class Dog extends Animal{
 void bark(){
-    System.out.println("barking");
+    System.out.println("barkingg");
 }
 }
 public class InheritanceSingle {
