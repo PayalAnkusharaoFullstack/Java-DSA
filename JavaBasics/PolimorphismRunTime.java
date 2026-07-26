@@ -5,7 +5,7 @@ class Animal{
 }
 class cat extends Animal{
    void display(){
-        System.out.println("hi cat");
+        System.out.println("hi dog");
     }
 }
 
