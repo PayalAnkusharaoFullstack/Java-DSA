@@ -5,7 +5,7 @@ public class Factorial {
         for(int i=1;i<=n;i++){
             Factorial=Factorial*i;
         }
-                    System.out.println(Factorial);
+                    System.out.println(Factoriall);
 
 
     }
