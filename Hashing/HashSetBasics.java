@@ -14,7 +14,7 @@ SetName.remove(2);
 if(SetName.contains(2)){
     System.out.println("yess");
 }else{
-    System.out.println("no");
+    System.out.println("noo");
 
 }
 
