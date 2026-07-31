@@ -12,7 +12,7 @@ int temp=n;
                 System.out.println("pelindrome");
 
     }else{
-                System.out.println("not");
+                System.out.println("not palindrome");
 
     }
   } 
