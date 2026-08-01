@@ -12,7 +12,7 @@ SetName.add(3);
 SetName.remove(2);
 
 if(SetName.contains(2)){
-    System.out.println("yess");
+    System.out.println("yes");
 }else{
     System.out.println("noo");
 
