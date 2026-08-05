@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class HashMapQueriesFreq {
     public static void main(String[]args){
 
- int arr[] = {2, 23, 4, 55, 56, 2, 23};
+ int arr[] = {2, 23,55, 56, 2, 23};
  int queries[] = {2, 23, 56, 100};
 
 
