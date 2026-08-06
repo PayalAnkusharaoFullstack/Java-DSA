@@ -13,7 +13,7 @@ class mamal extends animal {
 
 class Dog extends mamal {
     void bark() {
-        System.out.println("Barkingg");
+        System.out.println("Barking");
 
     }
 }
