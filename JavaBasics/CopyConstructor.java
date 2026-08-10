@@ -13,7 +13,7 @@ this.name=f.name;
 }
 public class CopyConstructor {
     public static void main(String[] args) {
-       Flower f1=new Flower("payal");
+       Flower f1=new Flower("payall");
       Flower f2=new Flower(f1);
 
 System.out.println(f1.name);
