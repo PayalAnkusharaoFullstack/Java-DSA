@@ -10,7 +10,7 @@ count++;
         if(count==2){
             System.err.println("prime");
         }else{
-            System.err.println("not");
+            System.err.println("not prime");
         }
 
     }
